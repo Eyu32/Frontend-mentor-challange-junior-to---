@@ -70,20 +70,24 @@ body{
     transform: translateY(50%);
     background: var(--clr-Neon-Green);
     box-shadow: 0 0 30px 15px rgba(82, 255, 168, 0.1);
-    transition: box-shadow 250ms ease-in-out;
+    transition: 250ms ease-in-out;
     cursor: pointer;
 }
 #btn:hover{
     box-shadow: 0 0 30px 15px rgba(82, 255, 168, 0.2);
+    #btn-image{
+        transition: 100ms ease-in-out;
+        transform: rotate(45deg);
+    }
 }
 
 .fade{
     opacity: 1;
     transition: 250ms ease-in-out;
 }
-.rotate{
+/* .rotate{
     transform: rotate(45deg);
-}
+} */
 
 
 .attribution { font-size: 11px; text-align: center; }
